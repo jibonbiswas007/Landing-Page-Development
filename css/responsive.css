@@ -1,0 +1,59 @@
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    
+}
+    
+
+/* tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+    
+    
+/* Small Mobile :320px. */
+
+@media (max-width: 767px) {
+.welcome-area {
+  height: auto;
+}
+    
+.logo {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.mainmenu {
+  text-align: center;
+}
+.hiro-area-table {
+  display: block;
+  height: auto;
+}
+.copyright-area {
+  position: relative;
+  text-align: center;
+}
+.copyright-area ul {
+  margin-top: 15px;
+  text-align: center;
+}
+.copyright-area ul li a {
+  padding: 0 15px;
+}
+.hiro-area-text {
+  padding-bottom: 50px;
+  padding-top: 180px;
+}
+    
+    
+}
+    
+    
+    
+/* Large Mobile :480px. */
+@media (min-width: 480px) and (max-width: 767px) {
+    
+    
+}

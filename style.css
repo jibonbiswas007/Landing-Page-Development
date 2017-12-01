@@ -1,0 +1,206 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Your template name 
+    Template URI: http://bootexperts.com
+    Description: This is html5 template
+    Author: BootExperts
+    Author URI: http://bootexperts.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+
+-----------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html, body {height: 100%;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+}
+a {-webkit-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #ec4445;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+.welcome-area {background-image: url(img/Radio.jpg)}
+
+
+.welcome-area {
+  background-color: #fff;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.welcome-area:before {
+  background: #fff none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.6;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.header-area {
+  left: 0;
+  padding: 30px 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+.logo {
+  margin-top: 4px;
+}
+.logo h2 {
+  font-size: 25px;
+  font-weight: 800;
+  margin: 0;
+}
+.logo img {
+  max-width: 66px;
+  padding-right: 15px;
+}
+.logo a {
+  color: #EF4043;
+}
+.mainmenu {}
+.mainmenu ul {}
+.mainmenu ul li {
+  display: inline-block;
+}
+.mainmenu ul li a {
+  color: #42413e;
+  display: block;
+  font-size: 18px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+}
+.mainmenu ul li a:hover {
+  border: 1px solid #ef4043;
+  border-radius: 50px;
+  color: #EF4043;
+}
+.hiro-area-table {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.hiro-area-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.hiro-area-text {}
+.hiro-area-text h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 65px;
+  margin-bottom: 20px;
+}
+.hiro-area-text p {
+  font-size: 20px;
+}
+.hiro-area-text .email-subscribes-form {
+  margin-top: 60px;
+  max-width: 500px;
+}
+.hiro-area-text .email-subscribes-form p {
+  font-size: 98%;
+}
+.hiro-area-text .email-subscribes-form input[type="email"] {
+  background: #fff none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 5px;
+  margin-right: 2%;
+  padding: 15px;
+  width: 60%;
+}
+.hiro-area-text .email-subscribes-form button[type="submit"] {
+  background: #ef4043 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 700;
+  padding: 15px 25px;
+  text-transform: uppercase;
+}
+.copyright-area {
+  background: #42413e none repeat scroll 0 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 99;
+}
+.copyright-area p {
+  margin: 0;
+}
+.copyright-area ul {}
+.copyright-area ul li {
+  display: inline-block;
+}
+.copyright-area ul li a, .copyright-area {
+  color: #ccc;
+}
+.copyright-area ul li a {
+  display: block;
+  padding-left: 30px;
+}
+.social-link {
+  margin-top: 20px;
+}
+.social-link a {
+  color: #42413e;
+  display: inline-block;
+  font-size: 22px;
+  margin: 0 10px;
+}
